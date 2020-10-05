@@ -1,84 +1,34 @@
-/* Add a dark background color with a little bit see-through */
-.container {
-  padding: 80px 120px;
+.bandmember{
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  opacity: 0.7; 
+ 
 }
-html {
-  scroll-behavior: smooth;
+.memberName{
+  font-weight: bold;
 }
-.navbar {
-    margin-bottom: 0;
-    background-color: #2d2d30;
-    border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    opacity: 0.9;
-    font-family: Montserrat, sans-serif;
-  }
+.bandmember:hover {
+  border-color: #f1f1f1;
   
-  /* Add a gray color to all navbar links */
-  .navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
-  }
-  .justify-content-end {
-    text-align: right;
-  }
-  /* On hover, the links will turn white */
-  .navbar-nav li a:hover {
-    color: #fff !important;
-  }
-  
-  /* The active link */
-  .navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#29292c !important;
-  }
-  
-  /* Remove border color from the collapsible button */
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-  }
-  
-  /* Dropdown */
-  .open .dropdown-toggle {
-    color: #fff ;
-    background-color: #555 !important;
-  }
-  
-  /* Dropdown links */
-  .dropdown-menu li a {
-    color: #000 !important;
-  }
-  
-  /* On hover, the dropdown links will turn red */
-  .dropdown-menu li a:hover {
-    background-color: red !important;
-  }
-  body {
-    font: 400 15px/1.8 Lato, sans-serif;
-    color: #777;
-    position: relative;
-  }
-  .bandmember{
-    border: 10px solid transparent;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 65%;
-    opacity: 0.7; 
-   
-  }
-  .bandmember:hover {
-    border-color: #f1f1f1;
-   
-  }
-  .bg-1 {
-    background: #2d2d30;
-    color: #bdbdbd;
-  }
-  .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-style: italic;}
+}
 
+.bg-1 {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+.bg-1 h3 {
+  color: #fff;
+}
+.bg-1 p {
+  font-style: italic;
+}
 
-
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+  position: relative;
+}
 
 /* Black buttons with extra padding and without rounded borders */
 .btn {
@@ -96,34 +46,27 @@ html {
   background-color: #fff;
   color: #000;
 }
-.modal-header, h4, .close {
-  background-color: #333;
-  color: #fff !important;
-  text-align: center;
-  font-size: 30px;
+
+.card-img-top {
+  height: 250px;
 }
 
-/* Overwrite default styles of h3 and h4 */
-h3, h4 {
-  margin: 10px 0 30px 0;
-  letter-spacing: 10px;
-  font-size: 20px;
-  color: #111;
+
+/* Add a dark background color with a little bit see-through */
+.container {
+  padding: 80px 120px;
 }
 
-/* Remove rounded borders on input fields */
-.form-control {
-  border-radius: 0;
+/* Dropdown links */
+ .dropdown-menu li a {
+  color: #000 !important;
 }
 
-/* Disable the ability to resize textareas */
-textarea {
-  resize: none;
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: red !important;
 }
 
-.modal-header, .modal-body {
-  padding: 40px 50px;
-}
 /* Add a dark background color to the footer */
 footer {
   background-color: #2d2d30;
@@ -139,3 +82,84 @@ footer a:hover {
   color: #777;
   text-decoration: none;
 }
+
+
+/* Remove rounded borders on input fields */
+.form-control {
+  border-radius: 0;
+}
+
+/* Overwrite default styles of h3 and h4 */
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.imgCarousel {
+  max-height: 60em;
+}
+
+.justify-content-end {
+  text-align: right;
+}
+
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+
+.modal-header, h4, .close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    font-family: Montserrat, sans-serif;
+}
+  
+  /* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.nav-pills li a:hover {
+  color: #fff !important;
+}
+  
+/* The active link */
+.nav-pills li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+  
+ /* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+  
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+  
+/* Disable the ability to resize textareas */
+textarea {
+  resize: none;
+}
+
+
